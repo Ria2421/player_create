@@ -1,4 +1,11 @@
-﻿using System;
+﻿//--------------------------------------------------
+//
+// メイン処理 [ Program.cs ]
+// Author:Kenta Nakamoto
+// Data 2024/06/14
+//
+//--------------------------------------------------
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
