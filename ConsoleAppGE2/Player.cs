@@ -56,7 +56,6 @@ namespace ConsoleAppGE2
             }
 
             this.name = name;
-            Console.Write("\n");
 
             while (true)
             {
@@ -107,6 +106,8 @@ namespace ConsoleAppGE2
                 // 問題なければループ脱出
                 break;
             }
+
+            Console.Write("\n");
         }
 
         /// <summary>
@@ -114,11 +115,9 @@ namespace ConsoleAppGE2
         /// </summary>
         public void ShowPlayer()
         {
-            Console.WriteLine("■ ステータス一覧 ■ ");
             Console.WriteLine("・ 名前 :{0}", this.name);
             Console.WriteLine("・ 体力 :{0}", this.hp);
             Console.WriteLine("・攻撃力:{0}", this.attack);
-            Console.WriteLine("\n");
         }
     }
 }
