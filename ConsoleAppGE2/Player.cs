@@ -108,5 +108,17 @@ namespace ConsoleAppGE2
                 break;
             }
         }
+
+        /// <summary>
+        /// プレイヤー作成
+        /// </summary>
+        public void ShowPlayer()
+        {
+            Console.WriteLine("■ ステータス一覧 ■ ");
+            Console.WriteLine("・ 名前 :{0}", this.name);
+            Console.WriteLine("・ 体力 :{0}", this.hp);
+            Console.WriteLine("・攻撃力:{0}", this.attack);
+            Console.WriteLine("\n");
+        }
     }
 }
