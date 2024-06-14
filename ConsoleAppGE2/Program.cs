@@ -34,6 +34,14 @@ namespace ConsoleAppGE2
                 players[i].CreatePlayer();
             }
 
+            // プレイヤーの情報閲覧
+            for (int i = 0; i < MAX_PLAYER; i++)
+            {
+                Console.WriteLine("▼ {0}P ステータス ▼", i + 1);
+                players[i].ShowPlayer();
+                Console.ReadLine();
+            }
+
             // 終了処理
             Console.Write("Enterを押して終了...");
             Console.ReadLine();
