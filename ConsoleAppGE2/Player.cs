@@ -25,5 +25,19 @@ namespace ConsoleAppGE2
         /// 攻撃力
         /// </summary>
         private int attack;
+
+        //------------------------------
+        // メソッド
+
+        /// <summary>
+        /// プレイヤー作成
+        /// </summary>
+        public void CreatePlayer(string name,int hp,int attack)
+        {
+            // 各情報を代入
+            this.name = name;
+            this.attack = attack;
+            this.hp = hp;
+        }
     }
 }
